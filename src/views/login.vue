@@ -97,7 +97,7 @@ tags.clearTags();
 	line-height: 50px;
 	text-align: center;
 	font-size: 20px;
-	color: #fff;
+	color: rgb(36, 33, 33);
 	border-bottom: 1px solid #ddd;
 }
 .ms-login {
