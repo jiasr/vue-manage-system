@@ -6,7 +6,8 @@ const routes:RouteRecordRaw[] = [
     {
         path: '/',
         redirect: '/dashboard'
-    }, {
+    },
+    {
         path: "/",
         name: "Home",
         component: Home,
@@ -108,14 +109,16 @@ const routes:RouteRecordRaw[] = [
                 component: () => import (/* webpackChunkName: "markdown" */ '../views/markdown.vue')
             }
         ]
-    }, {
+    }, 
+    {
         path: "/login",
         name: "Login",
         meta: {
             title: '登录'
         },
         component: () => import ( /* webpackChunkName: "login" */ "../views/login.vue")
-    }, {
+    }, 
+    {
         path: '/403',
         name: '403',
         meta: {
