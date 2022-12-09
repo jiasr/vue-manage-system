@@ -102,7 +102,7 @@ const query = reactive({
 	address: '',
 	name: '',
 	pageIndex: 1,
-	pageSize: 10
+	pageSize: 2
 });
 const tableData = ref<TableItem[]>([]);
 const pageTotal = ref(0);
